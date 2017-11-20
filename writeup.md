@@ -53,7 +53,6 @@ I was able to get score of 40% from the first training of the network.
 To improve NN results I can do following:
 1. add more training examples.
 2. add more layers to the NN
-3. use skip connections
 4. I can also use diferent NN types like SegNet
 
 
