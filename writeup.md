@@ -24,6 +24,14 @@ instead of using fully connected layers, we will use decoder.
 It upsamples information from the encoder all the way to the original image size.
 
 ## Network Structure
+| layers        | size           |
+| --------------- |:-------------:|
+| input layer     | 160x160x3  |
+| encoder layer 1 | 80x80x64 |
+| encoder layer 2 | 40x40x128 |
+| 1 x 1 layer | 40x40x256 |
+| decoder layer 1 | 80x80x128 |
+| decoder layer 2 | 160x160x64 |
 
 ## Parameters
 1. Learning rate. This should be relatively small, so I decide to start with 0.001
