@@ -33,6 +33,8 @@ It upsamples information from the encoder all the way to the original image size
 | decoder layer 1 | 80x80x128 |
 | decoder layer 2 | 160x160x64 |
 
+I also use skipping. From Inputs 1 to  decoder level 2. From Encoder leyer 1 to decoder layer 1.
+
 ## Parameters
 1. Learning rate. This should be relatively small, so I decide to start with 0.001
 2. Batch Size = 16
