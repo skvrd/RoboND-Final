@@ -46,3 +46,12 @@ It upsamples information from the encoder all the way to the original image size
 5. Validation steps = number of validation steps / batch size
 6. Worker = 2 / Here I decide to stick with default value from the provided file. But since I have only 1 GPU this parameter is not should not be relevant anyway.
 
+## Results 
+I was able to get score of 40% from the first training of the network.
+To improve NN results I can do following:
+1. add more training examples.
+2. add more layers to the NN
+3. use skip connections
+4. I can also use diferent NN types like SegNet
+
+
