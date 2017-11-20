@@ -16,9 +16,10 @@ FCN consists of 2 parts connected with 1x1 Convolution:
 #### The student has a clear understanding and is able to identify the use of various techniques and concepts in network layers indicated by the write-up.
 #### The student has a clear understanding of image manipulation in the context of the project indicated by the write-up.
 #### The student is able to identify the use of various reasons for encoding / decoding images, when it should be used, why it is useful, and any problems that may arise.
+
 ### Encoder
 Encoder extracts useful features from the images. This is just a set of convolutional layers.
-Each layer of the encoder “squeezes” information form the input image.
+Each layer of the encoder “squeezes” information form the input image into smaller amount of variables.
 In classical Convolutional network flatten the output by connecting it to the fully connected layer. Which leads to the spatial information loss.
 
 ### 1x1 Convolution
@@ -26,7 +27,7 @@ In order to keep spatial information we can use 1x1 convolution. It helped in re
 
 ### Decoder
 instead of using fully connected layers, we will use decoder.
-It upsamples information from the encoder all the way to the original image size.
+It upsamples/reconstruct information that was compressed by encoder and tries to reconstract the original image.
 
 ## Network Structure
 | layers        | size           |
