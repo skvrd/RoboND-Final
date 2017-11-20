@@ -36,6 +36,7 @@ It upsamples information from the encoder all the way to the original image size
 | 1 x 1 layer | 40x40x256 |
 | decoder layer 1 | 80x80x128 |
 | decoder layer 2 | 160x160x64 |
+
 Some layers are concatenated. From Inputs 1 to  decoder level 2. From Encoder leyer 1 to decoder layer 1.
 
 # The write-up conveys the student's understanding of the parameters chosen for the the neural network. 
