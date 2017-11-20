@@ -1,6 +1,6 @@
 # Deep Learning Project
 
-#The write-up conveys the an understanding of the network architecture. 
+# The write-up conveys the an understanding of the network architecture. 
 
 ## Introduction
 This file describes the Follow Me project
@@ -13,8 +13,8 @@ FCN consists of 2 parts connected with 1x1 Convolution:
 1. Encoder
 2. Decoder
 
-#The student has a clear understanding and is able to identify the use of various techniques and concepts in network layers indicated by the write-up.
-#The student has a clear understanding of image manipulation in the context of the project indicated by the write-up.
+# The student has a clear understanding and is able to identify the use of various techniques and concepts in network layers indicated by the write-up.
+# The student has a clear understanding of image manipulation in the context of the project indicated by the write-up.
 ### Encoder
 Encoder extracts useful features from the images. This is just a set of convolutional layers.
 Each layer of the encoder “squeezes” information form the input image.
@@ -59,7 +59,7 @@ To improve NN results I can do following:
 2. add more layers to the NN
 4. I can also use diferent NN types like SegNet
 
-#The student displays a solid understanding of the limitations to the neural network with the given data chosen for various follow-me scenarios which are conveyed in the write-up.
+# The student displays a solid understanding of the limitations to the neural network with the given data chosen for various follow-me scenarios which are conveyed in the write-up.
 
 I think that current neural network type can easly track almost any other object like car, cat or a dog. But we only have sample data for the human, so in order to teach this type of network to follow other object we need proper training data.
 
