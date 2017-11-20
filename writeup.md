@@ -15,6 +15,7 @@ FCN consists of 2 parts connected with 1x1 Convolution:
 
 #### The student has a clear understanding and is able to identify the use of various techniques and concepts in network layers indicated by the write-up.
 #### The student has a clear understanding of image manipulation in the context of the project indicated by the write-up.
+#### The student is able to identify the use of various reasons for encoding / decoding images, when it should be used, why it is useful, and any problems that may arise.
 ### Encoder
 Encoder extracts useful features from the images. This is just a set of convolutional layers.
 Each layer of the encoder “squeezes” information form the input image.
