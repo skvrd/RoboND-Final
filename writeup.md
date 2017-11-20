@@ -45,14 +45,14 @@ Here is Model screenshot:
 
 #### The write-up conveys the student's understanding of the parameters chosen for the the neural network. 
 ## Parameters
-1. Learning rate. This should be relatively small, so I decide to start with 0.001
-2. Batch Size = 16
+1. Learning rate. *Learning rate is used to ensure convergence. With small learning rate NN can converge slowly, with high learning rate it might not converge (might overshoot the optimal point).* This should be relatively small as a starting choice, so I decide to start with 0.001.
+2. Batch Size = 16. *Small batch size requires less memory but estimate of the gradient is less accurate.*
     1. I started with batch size of 64 on my CPU first, and in took couple hours to process 1 epoch. 
     2. Then I installed CUDA for my 780 GTX  on ubuntu (which was somewhat challenging I have to say). 
     3. It allowed me do use GPU with tensorflow
     4. But with GPU calculations batch size of 64 leads to memory error, I assume it can not fit to memory for my network structure.
     5. Then I lower my batch size to 16.
-3. Epoch = 50. I decide to go with relatively big number for the start.
+3. Epoch = 50. *How many times entire dataset will be fitted into the network. Bigger number usually leads to better results, but with big number there is a change of "overfitting"*. I decided to go with relatively big number for the start = 50.
 4. Step_per_epoch = number of training examples / batch size
 5. Validation steps = number of validation steps / batch size
 6. Worker = 2 / Here I decide to stick with default value from the provided file. But since I have only 1 GPU this parameter is not should not be relevant anyway.
