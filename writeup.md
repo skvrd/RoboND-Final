@@ -7,7 +7,7 @@ In this project I build and train fully convolutional neural network, that makes
 This network can perform tracking of a target person (hero) in the simulation.
 
 ## Fully Convolutional Network (FCN)
-FCN consists of 3 parts:
+FCN consists of 2 parts connected with 1x1 Convolution:
 1. Encoder
 2. Decoder
 
